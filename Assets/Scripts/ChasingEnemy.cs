@@ -37,7 +37,7 @@ public class ChasingEnemy: MonoBehaviour
             // Add logic for what happens when the enemy catches the player
             Debug.Log("Player caught by the enemy!");
             // Example: Restart level
-            UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+            //UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
         }
     }
 }
